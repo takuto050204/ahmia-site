@@ -93,9 +93,6 @@
                   {{ result.anchors | escape }}
                 {% endif %}
               </a>
-              {% if result.url_tor2web %}
-                -- <a href="{{ result.url_tor2web }}">Proxy</a>
-              {% endif %}
             </h4>
             {% if result.meta %}
               <p>{{ result.meta | escape | truncatechars:300 }}</p>
